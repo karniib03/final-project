@@ -40,9 +40,6 @@ body {
 			<input name="password" type="password" id="rpass" class="inputvalues" placeholder="Your password" required/><br>
 			<label><b id="rcpas">Confirm Password:</b></label><br>
 			<input name="cpassword" type="password" id="rcpass" class="inputvalues" placeholder="Confirm password" required/><br>
-			<label for="image">choose a profile picture:</label>
-			<input type="file" id="image" name="image" accept="image/*"><br>
-			<img id="image-preview" alt="Image preview" style="max-width: 200px; display: none;margin-left:20%"><br>
 			<input name="submit_btn" type="submit" id="signup_btn" value="Sign Up"/><br>
 			<a href="index.php"><input type="button" id="back_btn" value="Back"/></a>
 		</div>

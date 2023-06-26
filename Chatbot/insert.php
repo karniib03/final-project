@@ -1,6 +1,6 @@
 
 <?php
-		$conn=mysqli_connect("localhost","root","","youtube");
+		$conn=mysqli_connect("localhost","root","","hadi");
 		if($conn-> connect_error){
 			die("connection failed:".$conn-> connect_error);
 		}	

@@ -19,21 +19,20 @@
 
 			if(password_verify($password, $stored_password))
 			{
-				// Password is correct, perform login actions
-				// Redirect to the desired page or set session variables, etc.
+				
 				echo '<script type="text/javascript"> alert("Login successful!") </script>';
 				$_SESSION['username']= $username;
 				
 			}
 			else
 			{
-				// Password is incorrect
+				
 				echo '<script type="text/javascript"> alert("Invalid username or password!") </script>';
 			}
 		}
 		else
 		{
-			// User does not exist
+	
 			echo '<script type="text/javascript"> alert("Invalid username or password!") </script>';
 		}
 		
